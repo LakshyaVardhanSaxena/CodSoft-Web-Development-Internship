@@ -1,0 +1,167 @@
+@media (max-width:991px) {
+
+    /* custom css  */
+    section {
+        padding: 30px 0;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    /* Navbar */
+    .header-scrolled {
+        height: auto;
+    }
+
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+        background-color: #00071e;
+        padding-bottom: 16px;
+    }
+
+    .header_wrapper .nav-item .nav-link {
+        margin-top: 16px;
+    }
+
+    /* About */
+    .about_wrapper ul.nav-pills {
+        width: 61%;
+        margin: auto;
+    }
+
+    /* HERO SECTION TABLET FIX */
+    .firstSection>div {
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .firstSection {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+        margin: 100px 20px;
+        padding-top: 80px;
+    }
+
+    .rightSection img {
+        max-width: 280px;
+    }
+
+    .main-btn {
+        margin: 20px auto;
+        width: 60% !important;
+    }
+
+    /* Portfolio cards fix */
+    .portfolio_wrapper .card {
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 28px;
+    }
+
+    /* About */
+    .about_wrapper ul.nav-pills {
+        width: 100%;
+        margin: auto;
+        border: 0;
+    }
+
+    .about_wrapper ul li .nav-link {
+        font-size: 13px;
+    }
+
+    /* HERO SECTION MOBILE FIX */
+    .firstSection>div {
+        font-size: 1.8rem;
+    }
+
+    .rightSection img {
+        max-width: 200px;
+    }
+
+    /* Form + Contact fix */
+    .contact_wrapper .form-control,
+    .contact_wrapper textarea,
+    .input-box {
+        width: 100% !important;
+    }
+}
+
+/* NEW: Small Mobile 490px Fix */
+@media (max-width: 490px) {
+    .firstSection {
+        margin: 80px 15px;
+        padding-top: 70px;
+    }
+
+    .firstSection>div {
+        font-size: 1.5rem;
+    }
+
+    .rightSection img {
+        max-width: 180px;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    /* Portfolio + About cards full width */
+    .portfolio_wrapper .card,
+    .about_wrapper .tab-pane {
+        width: 100%;
+    }
+}
+
+/* NEW: Extra Small Mobile 430px Fix */
+@media (max-width: 430px) {
+    .firstSection>div {
+        font-size: 1.3rem;
+    }
+
+    .rightSection img {
+        max-width: 150px;
+    }
+
+    .main-btn {
+        width: 80% !important;
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+
+    /* Contact form tircha na ho */
+    .contact_wrapper .container,
+    .contact_wrapper .row {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0;
+    }
+
+    /* Images side me na jaye */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}

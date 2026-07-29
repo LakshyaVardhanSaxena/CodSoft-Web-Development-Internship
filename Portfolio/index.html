@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Bootstrap 5 CDN Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="image/pic.jpg">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!-- Header -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+
+                <!-- logo -->
+
+                <H2 class="logo align-items-center">Lakshya Vardhan Saxena</H2>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fas fa-bars navbar-toggler-icon "></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="main-btn" href="#contact">Hire me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- home Section -->
+    <section id="home" class="firstSection">
+        <div class="leftSection">
+            Hi, My name is <span class="blue">Lakshya</span>
+            <div>and I am super passionate</div>
+            <span id="element"></span> <!-- Element to contain animated typing -->
+            <a href="Lakshya_Vardhan_Saxena-Resume.pdf" download
+                class="main-btn mt-4 w-75 d-flex justify-content-center">
+                <i class="fas fa-download me-2 mt-1 "></i> Download Resume
+            </a>
+
+        </div>
+
+        <div class="rightSection">
+            <img src="image/pic.jpg" alt="">
+        </div>
+    </section>
+
+    <hr>
+    <!-- About Section-->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <img src="image/pic.jpg" class="img-fluid rounded-3" alt="About-us">
+                </div>
+                <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+                    <div class="my-3 my-lg-0">
+                        <span class=" subtitle">My About Deatils</span>
+                        <h2>About Me</h2>
+                        <p>I am a passionate and self-motivated web developer currently pursuing B.Tech in Computer
+                            Science. I enjoy creating responsive and user-friendly websites using HTML, CSS, Bootstrap,
+                            and JavaScript. I am continuously learning new technologies and improving my frontend
+                            development skills through real-world projects and internships.</p>
+                    </div>
+
+                    <div class="pt-4">
+                        <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab"
+                            role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-skills-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-skills" type="button" role="tab" aria-controls="pills-skills"
+                                    aria-selected="true">Skills
+                                </button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link " id="pills-education-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-education" type="button" role="tab"
+                                    aria-controls="pills-Education" aria-selected="false">Education
+                                </button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-experience-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-experience" type="button" role="tab"
+                                    aria-controls="pills-Experience" aria-selected="false">Experience
+                                </button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-disabled" type="button" role="tab"
+                                    aria-controls="pills-disabled" aria-selected="false" disabled>Disabled</button>
+                            </li>
+
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-skills" role="tabpanel"
+                                aria-labelledby="pills0-skills-tab">
+
+                                <div class="single-progress">
+                                    <h6>HTML</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 92%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                        <span class="label">92%</span>
+                                    </div>
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>CSS</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">85%</span>
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>Bootstrap</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">80%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>JS</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">80%</span>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-education" role="tabpanel"
+                                aria-labelledby="pills-education-tab">
+                                <ul class="text-start ps-0">
+                                    <li><a href="#">B.Tech in Computer Science<span>
+                                                AKTU University
+                                            </span></a> 2023 - Present
+                                    </li>
+
+                                    <li><a href="#">Intermediate<span>
+                                                SASVM Inter College
+                                            </span></a> 2022
+                                    </li>
+
+                                    <li><a href="#">High School<span>
+                                                SASVM Inter College
+                                            </span></a> 2020
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-experience" role="tabpanel"
+                                aria-labelledby="pills-experience-tab" tabindex="0">
+                                <ul class="text-start ps-0">
+                                    <li><a href="#">Full-stack Development Intern
+                                            <span> -SaiKet Systems</span></a> 2026 - Current
+                                    </li>
+                                    <li>
+                                        <a href="#">Working on frontend portfolio projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Learning Bootstrap and responsive design</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-disabled" role="tabpanel"
+                                aria-labelledby="pills-disabled-tab" tabindex="0">............</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    <!-- Portfolio Section -->
+    <section id="projects" class="portfolio_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">My Complete project</span>
+                    <h2>My Latest Project</h2>
+                    <p>Explore some of my recent web development projects focused on responsive layouts, modern UI
+                        design, and interactive user experiences. Each project reflects my passion for frontend
+                        development and showcases practical implementation of HTML, CSS, JavaScript, and Bootstrap to
+                        create clean, user-friendly, and visually appealing websites.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url('image/pic.jpg')"></span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url('image/music-orbit.png')"></span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url('image/pass-l.png')"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section-->
+    <section id="contact" class="contact_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+                    <span class="subtitle">My Complete project</span>
+                    <h2>Hire Me.</h2>
+                    <div class="row call_details mb-4">
+                        <label class="col-sm-3 col-lg-4">Call us directly:</label>
+
+                        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                            <a href="javascript:void(0)">+91 8650092743</a>
+                        </div>
+
+                        <label class="col-sm-3 col-lg-4">Contact Email:</label>
+
+                        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                            <a href="mailto:lakshyavardhansaxena@gmail.com">lakshyavardhansaxena@gmail.com</a>
+                        </div>
+
+                        <div>
+                            <form action="https://api.web3forms.com/submit" method="POST">
+
+                                <input type="hidden" name="access_key" value="3087ad53-83ae-42e8-a8da-611e77e62240">
+
+                                <div class="mb-4">
+                                    <input type="text" class="form-control input-box" name="name"
+                                        placeholder="Your Name..." autocomplete="off" required>
+                                </div>
+                                <div class="mb-4">
+                                    <input type="number" class="form-control input-box" name="phone"
+                                        placeholder="Your Phone..." autocomplete="off">
+                                </div>
+                                <div class="mb-4">
+                                    <input type="email" class="form-control input-box" name="email"
+                                        placeholder="Your Email..." autocomplete="off" required>
+                                </div>
+                                <div class="mb-4">
+                                    <textarea cols="40" rows="4" class="form-control input-box" id="message"
+                                        name="message" placeholder="Write a Message..." autocomplete="off"
+                                        required></textarea>
+                                </div>
+                                <button type="submit" class="main-btn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+                    <img src="image/pic.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6 text-center text-md-start">
+                    <!-- <div class="footer-logo mb-3 mb-md-0"> -->
+                    <h3 class="logo">Lakshya Vardhan Saxena</h3>
+                    <!-- </div> -->
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <ul class="list-unstyled d-flex justify-content-center justify-content-md-end
+                    justify-content-lg-center social-icon mb-3 mb-md-0">
+                        <li>
+                            <a href="https://www.linkedin.com/in/lakshya-vardhan-saxena-61024633b" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/LakshyaVardhanSaxena" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/lakshyavardhan1?igsh=MTIxdjl3ejA1d3hueQ=="
+                                target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+                        <p class="mb-0">Copyright © 2026 <a href="#">Lakshya Vardhan Saxena</a>
+                            All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script src=" script.js"></script>
+
+
+</body>
+
+</html>
